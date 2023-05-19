@@ -90,3 +90,66 @@ body {
     cursor: pointer;
 
 }
+
+/* Content Section */
+
+.content-container h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    border: solid 4px #3882F6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px
+}
+
+
+.box-col {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 200px 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-col p {
+    opacity: 0.7;
+    margin: 5px 20px 0px 20px;
+
+}
+
+/* Quote Section */
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 200px;
+}
+
+.quote-container p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', Arial;
+}
+
+.quote-container b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+    font-family: 'Roboto', Arial;
+}
